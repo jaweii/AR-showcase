@@ -1,0 +1,22 @@
+{
+  "name": "e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "dev:animoji": "parcel animoji.html",
+    "build":"parcel build index.html --public-url ./ | parcel build animoji.html --public-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clmtrackr": "^1.1.2",
+    "three": "^0.93.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}
